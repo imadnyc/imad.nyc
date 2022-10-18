@@ -1,0 +1,79 @@
+baseURL: 'https://imad.nyc'
+languageCode: 'en-us'
+title: 'imad.nyc'
+theme: 'PaperMod'
+
+
+enableInlineShortcodes: true    
+
+
+taxonomies:
+    category: categories
+    tag: tags
+    series: series
+menu:
+    main:
+        - name: Search
+          url: search/
+          weight: 10
+        - name: Tags
+          url: tags/
+          weight: 10
+        - name: Series
+          url: series/
+
+params:
+    author: Abdullah Imad
+    description: My personal site
+    defaultTheme: auto
+    ShowShareButtons: true
+    ShowReadingTime: true
+    displayFullLangName: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowToc: true
+    comments: true
+
+    label:
+         text: "Home"
+         icon: pfp.jpg
+         iconHeight: 35
+
+    profileMode:
+        enabled: True
+        title: "Hey, I'm Abdullah Imad" # optional default will be site title
+        subtitle: "Here are some of the ways you can reach me"
+        imageUrl: "/pfp.png" # optional
+        imageTitle: "<title of image as alt>" # optional
+        imageWidth: 200 # custom size
+        imageHeight: 200 # custom size
+        buttons:
+            - name: "Project Blogs"
+              url: "/project"
+            - name: "Personal Blogs"
+              url: "/personal" 
+
+
+    socialIcons: # optional
+        - name: "instagram"
+          url: "https://www.instagram.com/imad.nyc/"
+        - name: "youtube"
+          url: "https://www.youtube.com/channel/UCMxBkReW4eK0keM2Ny4QJng"
+        - name: "twitch"
+          url: "https://www.twitch.tv/imadstreaming"
+        - name: "linkedin"
+          url: "https://www.instagram.com/imad.nyc/"
+        - name: "github"
+          url: "https://github.com/imadnyc"
+        - name: "email"
+          url: "mailto:me@imad.nyc"
+        - name: "matrix"
+          url: "https://matrix.to/#/#imadstreaming:matrix.org"
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON 
+        
