@@ -5,7 +5,7 @@ theme: 'PaperMod'
 
 
 enableInlineShortcodes: true    
-
+buildDrafts: true
 
 taxonomies:
     category: categories
