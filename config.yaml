@@ -50,9 +50,9 @@ params:
         imageHeight: 200 # custom size
         buttons:
             - name: "Project Blogs"
-              url: "/hello"
+              url: "/project"
             - name: "Personal Blogs"
-              url: "/there" 
+              url: "/personal" 
 
 
     socialIcons: # optional
