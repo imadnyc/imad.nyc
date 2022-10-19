@@ -50,7 +50,7 @@ params:
         imageHeight: 200 # custom size
         buttons:
             - name: "Project Blogs"
-              url: "/h"
+              url: "/project"
             - name: "Personal Blogs"
               url: "/personal" 
 
@@ -76,4 +76,8 @@ outputs:
         - HTML
         - RSS
         - JSON 
+
+privacy:
+  instagram:
+    disable: false
         
