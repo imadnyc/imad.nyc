@@ -63,7 +63,7 @@ params:
         - name: "twitch"
           url: "https://www.twitch.tv/imadstreaming"
         - name: "linkedin"
-          url: "https://www.instagram.com/imad.nyc/"
+          url: "https://www.linkedin.com/in/abdullah-imad/"
         - name: "github"
           url: "https://github.com/imadnyc"
         - name: "email"
